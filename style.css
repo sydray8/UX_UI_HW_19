@@ -1,7 +1,5 @@
 body {
   font-family: 'Lexend', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -31,6 +29,7 @@ body {
     right: 0;
     top: 0;
     margin-left: 100%;
+    font-family: 'Lexend';
 }
 .navBar {
     float: right;
@@ -64,7 +63,7 @@ body {
     font-size: 20px;
     background-color: #696435;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lexend';
 
  }
 
@@ -101,6 +100,7 @@ button {
     border-style: outset;
     color: white;
     padding: 10px;
+    font-family: 'Lexend';
 }
 
 image {
