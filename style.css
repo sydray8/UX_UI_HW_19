@@ -1,0 +1,207 @@
+body {
+  font-family: 'Lexend', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #696435;
+  border: solid 1px #696435;
+  color: white;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+#navigation {
+    float: right;
+    display: inline-flex;
+    padding: 1%;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: right;
+    font-size: 20px;
+    color: black;
+    height: 50px;
+    right: 0;
+    top: 0;
+    margin-left: 100%;
+}
+.navBar {
+    float: right;
+    display: inline-flex;
+    padding: 1%;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: right;
+    font-size: 20px;
+    color: black;
+    height: 50px;
+    right: 0;
+    top: 0;
+  }
+#heroImg {
+    height: 600px;
+    padding: 25px;
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+ #footer {
+   
+    display: inline-flex;
+    width: 100%;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 20px;
+    background-color: #696435;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+.footer{
+  height: 100px;
+  background-color: #696435;
+  display: inline-block;
+ }
+
+ p {
+   font-weight: 800;
+   justify-content: center;
+   align-items: center;
+   word-wrap: normal;
+ }
+ h3 {
+   color: #696435;
+   font-weight: 800;
+   justify-content: center;
+   align-items: center;
+  }
+#logo {
+    display: block;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #696435;
+    border-style: outset;
+    color: white;
+    padding: 10px;
+}
+
+image {
+    height: 100px;
+}
+
+#categoryGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   /* grid-template-areas:
+   "BNE GCSPCA"; */
+  }
+ 
+
+/*.categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+*/
+  .heading {
+    background-color: #ECECEC;
+    padding: 5px;
+    height: 10px;
+    color: black;
+    font-size: 12px;
+    border-bottom: 5px solid #696435;
+  }
+.navTop {
+    display: inline-block;
+    padding: 15px;
+}
+.box1 {
+    
+    padding: 1px;
+    margin-left: 20%;
+}
+
+.flexContainer {
+  height: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.workGrid{
+  margin: 0px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "BurnNEarn GreaterCharlotteSPCA";
+    text-align: center;
+    padding: 50%;
+    
+}
+
+.projectButton {
+  text-align: center;
+  padding: 1%;
+  height: 50%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 50%;
+}
+
+.skillBox{
+ padding: 10px;
+  
+}
+*,
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.liFooter {
+  text-decoration: none;
+  display: inline-flex;
+  padding: 40px;
+
+}
+
+@media only screen and (max-width: 600) {
+  .flexContainer {
+    flex-direction: column;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "BurnNEarn"
+    "Greater CharlotteSPCA"
+    ;
+  }
+
+}
+
